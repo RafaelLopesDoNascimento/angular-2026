@@ -1,0 +1,18 @@
+:host {
+  p {
+    background-color: #b8df07;
+  }
+}
+
+:host-context(.theme-dark) {
+  p {
+    background-color: #000;
+    color: #fff;
+  }
+}
+
+::ng-deep {
+  .theme-dark {
+    border: 5px solid #ee0c76;
+  }
+}
